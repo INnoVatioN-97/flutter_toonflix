@@ -35,7 +35,7 @@ class CurrencyCart extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    "$name / $order",
+                    name,
                     style: TextStyle(
                         color: isInverted ? _blackColor : Colors.white,
                         fontSize: 32,
